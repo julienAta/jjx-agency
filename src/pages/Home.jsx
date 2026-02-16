@@ -53,7 +53,7 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
         {/* Grid background */}
         <div className="absolute inset-0 opacity-[0.03]" style={{
           backgroundImage: 'linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)',
@@ -63,14 +63,14 @@ export default function Home() {
         {/* Glow */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#c8ff00] rounded-full opacity-[0.03] blur-[150px]" />
 
-        <div className="relative z-10 text-center px-6 max-w-5xl mx-auto pt-20">
+        <div className="relative z-10 text-center px-6 max-w-7xl mx-auto">
           <div className="fade-in">
             <span className="font-display text-xs uppercase tracking-[0.4em] text-white/30 block mb-8">
               Digital Agency — Est. 2024
             </span>
           </div>
 
-          <h1 className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-bold leading-[0.9] tracking-tight mb-8 fade-in fade-in-delay-1">
+          <h1 className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-bold leading-[0.85] tracking-tighter mb-8 fade-in fade-in-delay-1">
             We build<br />
             <span className="text-lime">digital</span><br />
             experiences
